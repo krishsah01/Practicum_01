@@ -1,7 +1,8 @@
 import java.util.Objects;
 
-public class Person {
-   /*
+public class Person
+{
+    /*
     String ID = "";
     String firstName = "";
     String lastName = "";
@@ -10,13 +11,13 @@ public class Person {
     int YOB = 0;
 
     */
-    private String ID = "";
-    private String firstName = "";
-    private String lastName = "";
-    private String title = "";
-    private int YOB = 0;
+    private String ID;
+    private String firstName;
+    private String lastName;
+    private String title;
+    private int YOB;
 
-    public Person(String ID, String firstName, String lastName, String title, String rec, int YOB) {
+    public Person(String ID, String firstName, String lastName, String title, int YOB) {
         this.ID = ID;
         this.firstName = firstName;
         this.lastName = lastName;
