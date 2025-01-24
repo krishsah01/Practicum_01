@@ -10,7 +10,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import static java.nio.file.StandardOpenOption.*;
 
-public class PersonGenerator {
+public class ProductWriter {
     public static void main(String[] args)
     {
         boolean doneInput = false;
@@ -24,7 +24,7 @@ public class PersonGenerator {
         ArrayList<String> people = new ArrayList<String>();
         Scanner in = new Scanner(System.in);
 
-       // create a loop to enter persons data
+        // create a loop to enter persons data
         do {
             ID = SafeInput.getNonZeroLenString(in, "Enter ID: ");
             firstName = SafeInput.getNonZeroLenString(in, "Enter First Name: ");
